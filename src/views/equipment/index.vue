@@ -7,7 +7,9 @@
         </mt-button>
       </mt-header>
       <div class="list">
-        <p>test</p>
+        <p>test123</p>
+		<p>test123</p>
+		<p>test123</p>
         <div v-for="item in list1" :key="item.id">
           <mt-cell :title="item.name" is-link to="/equipment/list">
             <span>{{ item.num }}</span>

@@ -1,0 +1,30 @@
+@import "../px2rem.scss";
+$borderBom:1px solid #eee;
+#messagedetail{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 40px;
+    .listBox{
+      padding: 1rem;
+      line-height: 1.5rem;
+      .title{
+        color: #000;
+        font-size: 1.2rem;        
+      }
+      .time{
+        color: #6666;
+        font-size: 1rem;
+      }
+      .boxcontent{
+        margin: 0.6rem 0 0;
+        font-size: 1rem;
+      }
+    }
+  }
+}

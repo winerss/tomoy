@@ -1,0 +1,19 @@
+.header-wrap {
+    height: 44px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    .header-left, .header-title, .header-right {
+        flex: 1;
+    }
+    .header-right {
+        text-align: right;
+        font-size: 14px;
+        .next {
+            text-align: right;
+        }
+    }
+}

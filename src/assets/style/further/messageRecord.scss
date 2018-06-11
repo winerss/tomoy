@@ -1,0 +1,38 @@
+@import "../px2rem.scss";
+$borderBom:1px solid #eee;
+#messageRecord{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 40px;
+    .list{
+      .listBox{
+        padding: 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;        
+        border-bottom: $borderBom;        
+        a{color: #000;}
+        .boxtop{
+          overflow: hidden;
+          display: flex;
+          line-height: 2rem;
+          div{
+            flex: 1;
+          }
+          .right{
+            text-align: right;
+            color: #999;
+          }
+        }
+        .boxcontent{
+          color: #999;
+        }
+      }
+    }
+  }
+}

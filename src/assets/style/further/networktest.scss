@@ -1,0 +1,42 @@
+@import "../px2rem.scss";
+$borderBom:1px solid #eee;
+#networktest{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 40px;
+    padding-bottom: 1rem; 
+    .list{
+      padding: 1rem 0 0;
+      .listBox{
+        font-size: 1rem;
+        background: #eee;
+        padding: 0.8rem 1rem;
+      }
+      .listcontent{
+        display: flex;
+        div{
+          flex: 1;
+          padding: 0.8rem 1rem;
+          color: #999;
+        }
+      }
+      .basicBox{
+        padding: 0.8rem 1rem;
+        div{
+          line-height: 1.8rem;
+          color: #999;
+        }
+      }
+      .btnsave{
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

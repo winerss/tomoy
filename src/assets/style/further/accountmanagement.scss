@@ -1,0 +1,18 @@
+@import "../px2rem.scss";
+#accountmanagement{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    padding-bottom: 2rem;
+    margin-top: 40px;
+    .btnsave{
+      width: 90%;
+      margin: 3rem auto 0;
+    }
+  }
+}

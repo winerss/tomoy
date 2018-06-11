@@ -1,0 +1,52 @@
+#repeaterFirst{
+    .mint-header {
+        position: fixed;
+        width: 100%;
+        line-height: 40px;
+        background: #fff;
+        color: #666;
+        .is-right {
+          height: 40px;
+          img{
+            height: 20px;
+            vertical-align: middle;
+          }
+        }
+    }
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        .list{
+            display: flex;
+            .item{
+                flex: 1;
+                height: 7rem;
+                margin: 8px;
+                border-radius: 8px;
+                background: #ccc;
+                color: #999;
+                &:nth-child(2) {
+                    background: rgb(0, 204, 0);
+                    color: #fff;
+                }
+                img{
+                    padding: 5px;
+                    margin: 1.5rem 0 .5rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .mint-button{
+            width: 80%;
+            margin-top: 8rem;
+            margin-bottom: 10px;
+            background: rgb(0, 204, 0)
+        }
+    }
+}

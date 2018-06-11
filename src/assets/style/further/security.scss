@@ -1,0 +1,71 @@
+@import "../px2rem.scss";
+#security{
+  background: #fff;
+  margin-bottom: 9rem;
+  .header{
+    padding:0 1rem;
+    color: #000;
+    overflow: hidden;
+    .left{
+      float: left;
+      .title{
+        padding: 1rem 0 0.6rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      .status{
+        font-size: 1.1rem;
+        color: rgb(255, 164, 0);
+        padding-bottom: 1rem;
+      }
+    }
+    .right{
+      float: right;
+      img{
+        padding: 1rem 0 0.6rem 0.6rem;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+  .content{
+    padding: 1rem;
+    .img{
+      text-align: center;
+      img{
+        max-width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+    .contentBox{
+      font-size: 1rem;
+      .p{
+        color: #999;
+      }
+      .pmargin{
+        margin: 1rem 0;
+        font-size: 1rem;
+        img{
+          height: 32px;
+          width: 32px;
+          vertical-align: middle;
+          margin-right: 0.5rem;
+        }
+      }
+      .footer{
+        text-align: center;
+        .mint-button{
+          margin: 1rem 1rem 0;
+          a{
+            color: #fff;
+          }
+        }
+        .temporary{
+          background: rgb(255, 164, 0);
+          color: #fff
+        }
+      }
+      
+    }
+  }
+}

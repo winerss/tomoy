@@ -1,0 +1,25 @@
+#equipmentList{
+    .mint-header {
+        position: fixed;
+        width: 100%;
+        line-height: 40px;
+        background: #fff;
+        color: #666;
+        .is-right {
+          height: 40px;
+          img{
+            height: 20px;
+            vertical-align: middle;
+          }
+        }
+    }
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+    }
+}

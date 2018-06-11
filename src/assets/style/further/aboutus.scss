@@ -1,0 +1,21 @@
+@import "../px2rem.scss";
+#aboutus{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 40px;
+    padding: 1rem;
+    p{
+      text-align: center;
+      img{
+        max-width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

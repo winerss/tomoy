@@ -1,0 +1,26 @@
+.navbar-left {
+    width: 98px;
+    position: fixed;
+    top: 45px;
+    left: 0;
+    background: #fff;
+    .navbar-item {
+        border: 1px solid #797979;
+        height: 98px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        .inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 98px;
+            transform: translate(-50%, -50%);
+        }
+        img.item-icon {
+            margin-bottom: 10px;
+            width: 60px !important;
+        }
+    }
+}

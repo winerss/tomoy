@@ -1,0 +1,26 @@
+@import "../px2rem.scss";
+#roomlist{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 1rem;
+    .row{
+      .el_col{
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+        img{
+          max-width: 100%;
+        }
+        p{
+          margin: 0.5rem 0;
+        }
+      }      
+    }
+  }
+}
